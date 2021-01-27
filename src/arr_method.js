@@ -1,3 +1,21 @@
+/*
+    19个数组方法
+    改变原数组的API: 
+    push()、unshift()、pop()、shift()、reverse()、splice()、sort()
+
+    新增元素(改变原数组)：push unshift splice
+    删除元素(改变原数组)：pop shift splice
+    数组转字符串：join toString
+    数组翻转(改变原数组): reverse
+    获取子数组：slice
+    数组排序(改变原数组)：sort
+    查找数组：indexOf lastIndexOf
+    连接数组或元素(不改变原数组)：concat
+
+    与遍历数组有关的API(不改变原数组)：
+    forEach map filter every some reduce
+
+*/
 //push()：将value添加到数组的最后，返回新数组的长度(改变原数组)
 const arr1 = [1, 2, 3]
 console.log(arr1)
